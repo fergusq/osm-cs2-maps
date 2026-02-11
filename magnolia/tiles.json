@@ -130,5 +130,12 @@
       "minzoom": 11,
       "maxzoom": 14
     }
-  ]
+  ],
+  "bounds": [
+    -0.07,
+    -0.07,
+    0.07,
+    0.07
+  ],
+  "attribution": "Magnolia County by City Planner Plays; exported using OSM Export"
 }
