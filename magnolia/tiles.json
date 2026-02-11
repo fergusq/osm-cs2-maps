@@ -1,0 +1,134 @@
+{
+  "tiles":["https://fergusq.github.io/osm-cs2-maps/magnolia/{z}/{x}/{y}.pbf"],
+  "vector_layers": [
+    {
+      "id": "place",
+      "fields": {
+        "class": "String",
+        "name:latin": "String"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "boundary",
+      "fields": {},
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "poi",
+      "fields": {
+        "class": "String",
+        "indoor": "Boolean",
+        "name:latin": "String",
+        "subclass": "String"
+      },
+      "minzoom": 12,
+      "maxzoom": 14
+    },
+    {
+      "id": "housenumber",
+      "fields": {},
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "waterway",
+      "fields": {},
+      "minzoom": 8,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation",
+      "fields": {
+        "brunnel": "String",
+        "class": "String",
+        "subclass": "String",
+        "toll": "Boolean"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "transportation_name",
+      "fields": {
+        "class": "String",
+        "name:latin": "String",
+        "network": "String",
+        "subclass": "String"
+      },
+      "minzoom": 8,
+      "maxzoom": 14
+    },
+    {
+      "id": "building",
+      "fields": {},
+      "minzoom": 13,
+      "maxzoom": 14
+    },
+    {
+      "id": "water",
+      "fields": {
+        "class": "String"
+      },
+      "minzoom": 6,
+      "maxzoom": 14
+    },
+    {
+      "id": "water_name",
+      "fields": {},
+      "minzoom": 14,
+      "maxzoom": 14
+    },
+    {
+      "id": "aeroway",
+      "fields": {
+        "class": "String",
+        "ref": "String"
+      },
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "aerodrome_label",
+      "fields": {
+        "class": "String",
+        "iata": "String",
+        "icao": "String",
+        "name:latin": "String"
+      },
+      "minzoom": 10,
+      "maxzoom": 14
+    },
+    {
+      "id": "park",
+      "fields": {},
+      "minzoom": 11,
+      "maxzoom": 14
+    },
+    {
+      "id": "landuse",
+      "fields": {
+        "class": "String"
+      },
+      "minzoom": 4,
+      "maxzoom": 14
+    },
+    {
+      "id": "landcover",
+      "fields": {
+        "class": "String",
+        "subclass": "String"
+      },
+      "minzoom": 0,
+      "maxzoom": 14
+    },
+    {
+      "id": "mountain_peak",
+      "fields": {},
+      "minzoom": 11,
+      "maxzoom": 14
+    }
+  ]
+}
