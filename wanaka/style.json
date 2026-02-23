@@ -22,7 +22,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "/wanaka/tiles.json",
+      "url": "/osm-cs2-maps/wanaka/tiles.json",
       "minzoom": 8,
       "maxzoom": 14
     }
